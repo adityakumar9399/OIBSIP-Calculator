@@ -1,0 +1,72 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Tektur:wght@400;500;600&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lugrasimo', cursive;
+font-family: 'Tektur', cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(depositphotos_69780859-stock-illustration-doodle-calculator-seamless-pattern-background.jpg);
+}
+.calculator{
+    border: 4px solid white;
+    padding: 20px;
+    border-radius: 16px;
+    background:grey;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+}
+input{
+    width: 320px;
+    border: 4px solid white;
+    padding: 24px;
+    margin: 10px;
+    background: black;
+    box-shadow: 0px 3px 15px rgbs(84, 84 ,84 , 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+input::placeholder{
+    color: white;
+    background-color: 3px solid black;
+
+}
+button{
+    border: 4px solid white;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255 , 255 , 255 , 0.2);
+    cursor: pointer;
+}
+.equalBtn{
+    background-color:black;
+}
+.operatorBtn{
+    background-color: black;
+    color: white;
+}
+.operatorBtn2{
+    background-color: black;
+    color: white;
+}
+.operatorBtn3{
+    background-color: black;
+    color: white;
+}
